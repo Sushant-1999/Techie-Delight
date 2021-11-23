@@ -1,0 +1,17 @@
+Binary Left Shift and Binary Right Shift
+
+## Binary Left Shift :
+
+    All the 0,1 gets shifted to the left and the empty space gets filled with 0.
+    N = N << 1;
+    This is the example of left shift by 1 time.
+    Left shift by (i) times is nothing but equal to the multiplying the number by 2 
+        i times.
+    Means, N = N << 2 is equal to the N = N * (2^i)
+
+## Binary Right Shift
+
+    In the all 0,1 are shifted to right and empty space is filled with 0
+    All right digits will get discarded.
+    N = N >> 2 . It is similar to the N = N / (2^i)
+    
